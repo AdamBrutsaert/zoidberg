@@ -8,3 +8,7 @@
 !**/*.env.test
 !**/*.env.*.example
 !**/*.env.*.test
+
+# Datasets
+**/datasets/
+!**/datasets/.gitkeep
