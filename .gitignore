@@ -10,5 +10,5 @@
 !**/*.env.*.test
 
 # Datasets
-**/datasets/
+**/datasets/*
 !**/datasets/.gitkeep
