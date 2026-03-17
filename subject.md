@@ -30,6 +30,38 @@ You are expected to deliver:
 * a synthesis document
     a pdf file to sum up your results and figures
 
+### Notebook structure requirements
+
+Your Jupyter notebook must include the following:
+
+1. **Introduction**
+   - A clear description of the problem: what you are doing and why.
+   - A list of all requirements and dependencies (libraries, dataset, environment).
+
+2. **Research questions**
+   Define exactly **three questions** in a clear and explicit manner, then answer each one. Examples:
+   - *"Can we achieve 99% accuracy?"* (the answer is almost certainly no — explain why)
+   - Frame your questions around what insights or limitations you want to explore.
+
+3. **Preprocessing explanation**
+   Document the full preprocessing pipeline:
+   - Image conversion (e.g., grayscale, resizing)
+   - Normalization / standardization
+   - Any augmentation, feature extraction, or dimensionality reduction steps
+
+4. **Algorithms**
+   Implement and compare **at least three different algorithms**.
+   - Justify your choice of algorithms.
+   - Explain why some perform better than others on this dataset.
+
+5. **Results and visualizations**
+   Every result must be accompanied by:
+   - A **diagram** or plot
+   - A **title** and a **legend**
+   - Comments explaining what the result shows
+
+6. **Saving trained models**
+   Training results must be saved to disk (e.g., using `joblib`, `pickle`, or framework-specific formats) so the notebook can be re-run and load pre-trained models without retraining from scratch.
 
 > [!NOTE]
 > There are ways to save a trained algorithm and load it afterwards in order to obtain the same results when you run it again!
